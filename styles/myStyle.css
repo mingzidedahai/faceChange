@@ -1,0 +1,76 @@
+body{
+    background-color: #000;
+}
+
+#top {
+    margin-left:210px;
+    margin-top:50px;
+    position:absolute;
+
+    z-index: 4;
+}
+#btnRandomize{
+    margin-left:70px;
+    background-color:darkviolet;
+}
+#btnReset{
+    background-color: darkviolet;
+}
+#top p{
+    color:darkgreen;
+    font_size:12px;
+    margin-top:20px;
+}
+#main{
+    margin:0px;
+    padding:0px;
+
+}
+
+.lighting{
+    display:none;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+#frame{
+    position:absolute;
+    left:200px;
+    top:150px;
+    width:545px;
+    height:629px;
+    background-image: url(../images/frame.png);
+    z-index: 3;
+    overflow: hidden;
+}
+#box{
+    position: absolute;
+    left:91px;
+    top:84px;
+    width:367px;
+    height:460px;
+    z-index:2;
+    overflow: hidden;
+}
+.face{
+    position: relative;
+    left:0px;
+    top:0px;
+    z-index: 1;
+
+}
+#head{
+    height:172px;
+}
+
+#eyes{
+    height:79px;
+}
+
+#nose{
+    height:86px;
+}
+
+#mouth{
+    height:117px;
+}
